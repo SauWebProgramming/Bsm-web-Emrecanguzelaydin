@@ -1,2 +1,2 @@
 # Bsm-web-Emrecanguzelaydin-B191200301
-web-page-Kurtarinbenibukaptan created by GitHub Classroom
+web-page-EmrecanGuzelaydin created by GitHub Classroom
