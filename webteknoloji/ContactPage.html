@@ -233,6 +233,42 @@
     </style>
 </head>
 <body>
+    <div class="nav">
+        <ul>
+            <li> <a href="MainPage.html"> Home </a> </li>
+            <li>
+                <a href="#"> Galleries </a>
+                <ul>
+                    <li><a href="PhotoGallery.html"> Ship Gallery</a></li>
+                </ul>
+            </li>
+            <li> <a href="ContactPage.html"> Contact </a> </li>
+        </ul>
+    </div>
 
+    <div id="form-main">
+        <div id="form-div">
+            <form class="form" id="form1">
+
+                <p class="name">
+                    <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="İsim" id="name" />
+                </p>
+
+                <p class="email">
+                    <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Eposta" />
+                </p>
+
+                <p class="text">
+<textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Yorum"></textarea>
+                </p>
+
+
+                <div class="submit">
+                    <input type="submit" value="KAYDET" id="button-blue" />
+                    <div class="ease"></div>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12092.234474013698!2d30.337683775439462!3d40.738735655345835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd81085b5551312fd!2sBilgisayar%20Ve%20Bili%C5%9Fim%20Bilimleri%20Fak%C3%BCltesi!5e0!3m2!1str!2str!4v1576674570013!5m2!1str!2str" width="450" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </form>
+        </div>
 </body>
 </html>
