@@ -4,6 +4,74 @@
 <head>
     <meta charset="utf-8" />
     <title></title>
+     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/lightbox.min.css" />
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <meta charset="utf-8" />
+    <title>Image Gallery</title>
+    <style>
+
+        body {
+            margin: 0;
+            background: white;
+        }
+
+        .nav {
+            width: 100%;
+            background: #180578;
+            height: 80px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            position: absolute;
+        }
+
+            ul li {
+                float: left;
+                margin-top: 20px;
+            }
+
+                ul li a {
+                    width: 150px;
+                    color: white;
+                    display: block;
+                    text-decoration: none;
+                    font-size: 20px;
+                    text-align: center;
+                    padding: 20px;
+                    border-radius: 10px;
+                    font-family: 'Century Gothic';
+                    font-weight: bold;
+                }
+
+        a:hover {
+            background: #669900;
+        }
+
+        ul li ul {
+            background: #000033;
+        }
+
+            ul li ul li {
+                float: none;
+            }
+
+        ul li ul {
+            display: none;
+        }
+
+        ul li:hover ul {
+            display: block;
+        }
+
+        #slider {
+            width: 750px;
+            height: 500px;
+        }
+    </style>
 </head>
 <body>
 
